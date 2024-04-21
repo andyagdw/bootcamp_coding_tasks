@@ -4,11 +4,14 @@ Hello👋, welcome to my repository where I've compiled some of the Python proje
 
 ## Usage
 
-Clone the repository to your local machine:<br />
+1) Clone the repository to your local machine:<br />
 <code>git clone https://github.com/andyagdw/bootcamp_coding_tasks.git</code>
 
-Navigate to the project directory:<br />
+2) Navigate to the project directory:<br />
 <code>cd bootcamp_coding_tasks</code>
+
+3) Open Visual Studio Code:
+   <code>Code .</code>
 
 ### Contact
 
