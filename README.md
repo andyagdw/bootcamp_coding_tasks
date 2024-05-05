@@ -15,7 +15,9 @@ I've acquired. Feel free to explore them 😄.
    of complex systems, data security through encapsulation, code reuse via inheritance, and flexibility with polymorphism, enhancing
    readability and facilitating collaboration in large projects.
 
-2) Minesweeper Program <br />
+   ![User interface of Email program](/Images/email_inbox.png)
+
+3) Minesweeper Program <br />
    It takes a grid of mines represented by # and mine-free spots represented by - and returns a grid where each mine-free spot is
    replaced by a digit indicating the number of adjacent mines (horizontally, vertically, and diagonally).
    
