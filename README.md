@@ -13,6 +13,7 @@ Hello👋, welcome to my repository where I've compiled some of the Python proje
 3) Open Visual Studio Code:
    <code>Code .</code>
 
+## Credits
 ### Contact
 
 If you have any questions or just want to connect, you can reach me on [LinkedIn](https://www.linkedin.com/in/andyagyeidwumah/) 👍.
