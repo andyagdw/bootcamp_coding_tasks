@@ -1,7 +1,7 @@
 # Software Engineering Bootcamp Projects 🎆
 
 Hello👋, welcome to my repository where I've compiled some of the Python projects I completed during my software engineering
-bootcamp journey at HyperionDev and CoGrammar. Each project demonstrates my learning progress and showcases various skills
+bootcamp journey at HyperionDev and CoGrammar. Each project demonstrates my learning progress and showcases various skills that
 I've acquired. Feel free to explore them 😄.
 
 ## Projects
@@ -14,6 +14,8 @@ I've acquired. Feel free to explore them 😄.
    Learning OOP is vital for modular, maintainable, and scalable software development. It promotes code organisation, abstraction
    of complex systems, data security through encapsulation, code reuse via inheritance, and flexibility with polymorphism, enhancing
    readability and facilitating collaboration in large projects.
+
+   **Image showing user interface of Email simulator**:
 
    ![User interface of Email program](/Images/email_inbox.png)
 
