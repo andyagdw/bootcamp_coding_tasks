@@ -15,6 +15,14 @@ I've acquired. Feel free to explore them 😄.
    of complex systems, data security through encapsulation, code reuse via inheritance, and flexibility with polymorphism, enhancing
    readability and facilitating collaboration in large projects.
 
+2) Minesweeper Program <br />
+   It takes a grid of mines represented by # and mine-free spots represented by - and returns a grid where each mine-free spot is
+   replaced by a digit indicating the number of adjacent mines (horizontally, vertically, and diagonally).
+   
+   Learning about data structures is crucial because they provide efficient ways to organise and manipulate data in a program.
+   Understanding data structures allows for optimised storage, retrieval, and manipulation of data, leading to more efficient
+   and scalable code. It helps in solving complex problems and designing robust algorithms.
+
 ## Getting Started
 
 1) Clone the repository to your local machine:<br />
