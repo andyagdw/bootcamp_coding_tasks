@@ -42,12 +42,12 @@ currently working on 🚧
    Run: <br />
    `virtualenv venv`
 
-6. Activate the virtual environment
+5. Activate the virtual environment
 
    Using venv
 
    Windows <br />
-   `venv\Scripts\activate`
+   `venv\Scripts\activate` <br />
    Unix\Mac <br />
    `source venv/bin/activate`
 
@@ -58,7 +58,7 @@ currently working on 🚧
    Unix\Mac <br />
    `source venv/bin/activate`
 
-7. Ensure project dependencies are installed: <br />
+6. Ensure project dependencies are installed: <br />
 
 ```
 - flake8==7.0.0
