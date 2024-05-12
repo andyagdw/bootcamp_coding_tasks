@@ -1,14 +1,14 @@
-# Task Manager Application
+# Task Manager Application 💥
 
 A Python-based Task Manager application employing the
-'Model-View-Controller' pattern. It facilitates users to
+'Model-View-Controller' pattern😁. It facilitates users to
 effortlessly create, update, remove, or view tasks, deadlines,
 priorities, and categories.
 
 Please note that tasks do not get saved to a database - this is something that I am
 currently working on 🚧
 
-## Features
+## Features ✨
 
 1. Create a new task: Easily add new tasks to your list
 2. Update a task: Modify existing tasks as needed
@@ -18,19 +18,20 @@ currently working on 🚧
 6. View priorities: Prioritise tasks based on their importance
 7. View categories: Organise tasks into different categories
 
-## Getting started
+## Getting started ✅
 
 1. Clone the repository to your local machine <br />
-   `git clone`
+   `git clone https://github.com/andyagdw/bootcamp_coding_tasks.git`
 2. Navigate to the project directory <br />
-   `cd bootcamp_coding_tasks`
+   `cd bootcamp_coding_tasks/task_manager`
 3. Open Visual Studio Code <br />
    `Code .`
-4. Set up a virtual environment using `virtualenv` or `venv`
+4. Set up a virtual environment using `virtualenv` or `venv` in Visual Studio Code terminal. <br />
+   Make sure you are in the project directory.
 
    Using venv
 
-   Navigate to the project directory and run: <br />
+   Run: <br />
    `python -m venv venv` <br />
    For Python 3.3 or newer: <br />
    `python3 -m venv venv`
@@ -38,10 +39,10 @@ currently working on 🚧
    Using virtualenv
 
    `pip install virtualenv` <br />
-   Navigate to the project directory and run: <br />
+   Run: <br />
    `virtualenv venv`
 
-5. Activate the virtual environment
+6. Activate the virtual environment
 
    Using venv
 
@@ -57,7 +58,7 @@ currently working on 🚧
    Unix\Mac <br />
    `source venv/bin/activate`
 
-6. Ensure project dependencies are installed: <br />
+7. Ensure project dependencies are installed: <br />
 
 ```
 - flake8==7.0.0
@@ -66,5 +67,5 @@ currently working on 🚧
 - pyflakes==3.2.0
 ```
 
-7. Run the main script using: <br />
+7. In the project directory, run the main script using: <br />
    `python src\main.py`
