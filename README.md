@@ -29,8 +29,8 @@ I've acquired. Feel free to explore them 😄.
 
 3. Task Manager Application <br />
    Employing the 'Model-View-Controller' pattern, this project facilitates users to effortlessly create, update, remove, or view tasks,
-   deadlines, priorities, and categories. Please note that tasks do not get saved to a database - this is something that I am
-   currently working on 🚧
+   deadlines, priorities, and categories. Please note that tasks do not get saved to a database - see my
+   [task_manager_app](https://github.com/andyagdw/task_manager_app) repository.
 
    Understanding modules in Python is crucial for organizing code efficiently. Breaking a project into modules promotes modularity,
    enhancing code readability and maintenance. Modules facilitate collaboration by allowing multiple developers to work on separate
