@@ -1,10 +1,10 @@
-# Software Engineering Bootcamp Projects 🎆
+# Software Engineering Bootcamp Tasks 🎆
 
-Hello👋, welcome to my repository where I've compiled some of the Python projects I completed during my software engineering
-bootcamp journey at HyperionDev and CoGrammar. Each project demonstrates my learning progress and showcases various skills that
+Hello👋, welcome to my repository where I've compiled some of the Python tasks that I completed during my software engineering
+bootcamp journey at HyperionDev and CoGrammar. Each task demonstrates my learning progress and showcases various skills that
 I've acquired. Feel free to explore them 😄.
 
-## Projects 💥
+## Tasks 💥
 
 1. Email Simulator <br />
    Implemented using Object-Oriented Programming (OOP) in Python, this program allows users to manage their emails by creating,
@@ -28,7 +28,7 @@ I've acquired. Feel free to explore them 😄.
    and scalable code. It helps in solving complex problems and designing robust algorithms.
 
 3. Task Manager Application <br />
-   Employing the 'Model-View-Controller' pattern, this project facilitates users to effortlessly create, update, remove, or view tasks,
+   Employing the 'Model-View-Controller' pattern, this program facilitates users to effortlessly create, update, remove, or view tasks,
    deadlines, priorities, and categories. Please note that tasks do not get saved to a database - see my
    [task_manager_app](https://github.com/andyagdw/task_manager_app) repository.
 
