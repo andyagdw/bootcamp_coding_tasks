@@ -46,7 +46,7 @@ I've acquired. Feel free to explore them 😄.
 <code>cd bootcamp_coding_tasks</code>
 
 3) Open Visual Studio Code:
-   <code>Code .</code>
+   <code>code .</code>
 
 ## Credits
 ### Contact
