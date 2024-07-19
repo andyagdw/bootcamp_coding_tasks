@@ -45,7 +45,7 @@ I've acquired. Feel free to explore them 😄.
 2) Navigate to the project directory:<br />
 <code>cd bootcamp_coding_tasks</code>
 
-3) Open Visual Studio Code:
+3) Open Visual Studio Code: <br />
    <code>code .</code>
 
 ## Credits
