@@ -32,7 +32,7 @@ I've acquired. Feel free to explore them 😄.
    deadlines, priorities, and categories. Please note that tasks do not get saved to a database - see my
    [task_manager_app](https://github.com/andyagdw/task_manager_app) repository.
 
-   Understanding modules in Python is crucial for organizing code efficiently. Breaking a project into modules promotes modularity,
+   Understanding modules in Python is crucial for organising code efficiently. Breaking a project into modules promotes modularity,
    enhancing code readability and maintenance. Modules facilitate collaboration by allowing multiple developers to work on separate
    components simultaneously. Moreover, modular design encourages separation of concerns, enabling focused development and easier
    debugging. By leveraging modules, developers can create reusable code, improving productivity and scalability in Python projects.
