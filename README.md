@@ -6,7 +6,7 @@ I've acquired. Feel free to explore them 😄.
 
 ## Tasks 💥
 
-1. Email Simulator <br />
+1. Email Simulator: <br>
    Implemented using Object-Oriented Programming (OOP) in Python, this program allows users to manage their emails by creating,
    viewing, marking as read, marking as spam, moving to the bin, and deleting emails. The program organises emails into folders
    (i.e., inbox, spam, and bin) and provides a user-friendly interface to interact with these emails.
@@ -19,7 +19,7 @@ I've acquired. Feel free to explore them 😄.
 
    ![User interface of Email program](/Images/email_inbox.png)
 
-2. Minesweeper Program <br />
+2. Minesweeper Program: <br>
    It takes a grid of mines represented by '#' and mine-free spots represented by '-' and returns a grid where each mine-free spot is
    replaced by a digit indicating the number of adjacent mines (horizontally, vertically, and diagonally).
    
@@ -27,7 +27,7 @@ I've acquired. Feel free to explore them 😄.
    Understanding data structures allows for optimised storage, retrieval, and manipulation of data, leading to more efficient
    and scalable code. It helps in solving complex problems and designing robust algorithms.
 
-3. Task Manager Application <br />
+3. Task Manager Application: <br>
    Employing the 'Model-View-Controller' pattern, this program facilitates users to effortlessly create, update, remove, or view tasks,
    deadlines, priorities, and categories. Please note that tasks do not get saved to a database - see my
    [task_manager_app](https://github.com/andyagdw/task_manager_app) repository.
@@ -39,14 +39,14 @@ I've acquired. Feel free to explore them 😄.
 
 ## Getting Started ✅
 
-1) Clone the repository to your local machine:<br />
-<code>git clone https://github.com/andyagdw/bootcamp_coding_tasks.git</code>
+### Prerequisite
+- Ensure that Python is installed on your machine
 
-2) Navigate to the project directory:<br />
-<code>cd bootcamp_coding_tasks</code>
+1) Clone the repository to your local machine: <br>
+`git clone https://github.com/andyagdw/bootcamp_coding_tasks.git`
 
-3) Open Visual Studio Code: <br />
-   <code>code .</code>
+2) Navigate to the project directory: <br>
+`cd bootcamp_coding_tasks`
 
 ## Credits
 ### Contact
