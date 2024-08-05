@@ -1,4 +1,4 @@
-'''Minesweeper program
+"""Minesweeper program
 
 The minesweeper function takes in a grid of # and -, where each hash
 represents a mine and each dash represents a mine-free spot. It returns
@@ -7,22 +7,17 @@ mines immediately adjacent to the spot i.e., horizontally, vertically,
 and diagonally
 
 It is important that the grid must be 3x3 or greater
-'''
+"""
 
-my_grid = [ ["-", "-", "-", "#", "#"],
-            ["-", "#", "-", "-", "-"],
-            ["-", "-", "#", "-", "-"],
-            ["-", "#", "#", "-", "-"],
-            ["-", "-", "-", "-", "-"] ]
 
 # First row
 def grid_first_row(value, index_value, index_row, grid, new_grid):
-    '''
+    """
     Specific to values that are at the top left and right of a grid.
     Checks how many mines are adjacent to a mine free spot and appends
     this value to its specific row (list) within the new grid and
     returns the new grid
-    '''
+    """
 
     count = 0  # Store total number of mines around a mine-free spot
     # Flags are to check if an 'if condition' has already been met
@@ -60,14 +55,15 @@ def grid_first_row(value, index_value, index_row, grid, new_grid):
     new_grid[index_row].append(count)
     return new_grid
 
+
 # Last row
 def grid_last_row(value, index_value, index_row, grid, new_grid):
-    '''
+    """
     Specific to values that are at the bottom left and right of a
     grid. Checks how many mines are adjacent to a mine free spot and
     appends this value to its specific row (list) within the new grid
     and returns the new grid
-    '''
+    """
 
     count = 0  # Store total number of mines around a mine-free spot
     # Flags are to check if an 'if condition' has already been met
@@ -103,14 +99,15 @@ def grid_last_row(value, index_value, index_row, grid, new_grid):
     new_grid[index_row].append(count)
     return new_grid
 
+
 # Grid Sides
 def grid_side_values(value, index_value, index_row, grid, new_grid):
-    '''
+    """
     Specific to values that are at the side of a grid. Checks how
     many mines are adjacent to a mine free spot and appends this value
     to its specific row (list) within the new grid and returns the
     new grid
-    '''
+    """
 
     count = 0  # Store total number of mines around a mine-free spot
     # Flags are to check if an 'if condition' has already been met
@@ -159,14 +156,15 @@ def grid_side_values(value, index_value, index_row, grid, new_grid):
     new_grid[index_row].append(count)
     return new_grid
 
+
 # Top and bottom
 def grid_top_and_bottom_values(value, index_value, index_row, grid, new_grid):
-    '''
+    """
     Specific to values that are at the top and bottom of a grid.
     Checks how many mines are adjacent to a mine free spot and appends
     this value to its specific row (list) within the new grid and
     returns the new grid
-    '''
+    """
 
     count = 0  # Store total number of mines around a mine-free spot
     # Flags are to check if an 'if condition' has already been met
@@ -215,14 +213,15 @@ def grid_top_and_bottom_values(value, index_value, index_row, grid, new_grid):
     new_grid[index_row].append(count)
     return new_grid
 
+
 # Center values
 def grid_center_values(value, index_value, index_row, grid, new_grid):
-    '''
+    """
     Specific to values that are in the center of grid. It checks how
     many mines are adjacent to a mine free spot and appends this value
     to its specific row (list) within the new grid and returns
     the new grid
-    '''
+    """
 
     count = 0  # Store total number of mines around a mine-free spot
     # Flags are to check if an 'if condition' has already been met
@@ -275,13 +274,14 @@ def grid_center_values(value, index_value, index_row, grid, new_grid):
     new_grid[index_row].append(count)
     return new_grid
 
+
 # Driver function
 def mine_sweeper(grid):
-    '''
+    """
     Takes in a grid and returns a new grid where each dash in the
     input grid is replaced by a digit, indicating the number of mines
     immediately adjacent to the spot
-    '''
+    """
 
     new_grid = [[]]  # To store end result
     # Store total number of rows in grid
@@ -339,10 +339,19 @@ def mine_sweeper(grid):
 
     return new_grid
 
-result = mine_sweeper(my_grid)
 
-for grid_row in result:
-    print(grid_row)
+if __name__ == "__main__":
+
+    my_grid = [ ["-", "-", "-", "#", "#"],
+            ["-", "#", "-", "-", "-"],
+            ["-", "-", "#", "-", "-"],
+            ["-", "#", "#", "-", "-"],
+            ["-", "-", "-", "-", "-"] ]
+
+    result = mine_sweeper(my_grid)
+
+    for grid_row in result:
+        print(grid_row)
 
 # IGNORE: NOTES
 
