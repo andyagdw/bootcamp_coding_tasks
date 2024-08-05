@@ -86,9 +86,9 @@ def get_task_information() -> list:
             continue
 
         return [
-            task_title,
-            task_description,
-            task_category,
+            task_title.strip(),
+            task_description.strip(),
+            task_category.lower().strip(),
             task_deadline,
             task_priority]
 
